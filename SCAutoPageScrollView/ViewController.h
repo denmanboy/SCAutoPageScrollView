@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCAutoPageScrollView.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) SCAutoPageScrollView *pageScrollView;
+
 
 @end
-
